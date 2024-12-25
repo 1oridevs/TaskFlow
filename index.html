@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TaskFlow</h1>
+        </header>
+        <main>
+            <section class="task-input">
+                <input type="text" id="task-title" placeholder="Enter task title" />
+                <select id="task-category">
+                    <option value="Work">Work</option>
+                    <option value="Personal">Personal</option>
+                    <option value="Shopping">Shopping</option>
+                    <option value="Others">Others</option>
+                </select>
+                <button id="add-task">Add Task</button>
+            </section>
+            <section class="task-list">
+                <h2>Tasks</h2>
+                <ul id="tasks"></ul>
+            </section>
+        </main>
+        <footer>
+            <p>TaskFlow &copy; 2024</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
